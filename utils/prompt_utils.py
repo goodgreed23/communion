@@ -14,8 +14,8 @@ survey_items = ["I am very likely to tell someone what they should do; I sometim
                 "When I see others cry, I have difficulty holding back my tears; During a conversation, I am easily overcome by emotions; When describing my memories, i sometimes get visibily emotional; People can tell that I am emotionally touched by some topics of conversation.",
                 "I often take the lead in a conversation; I often determine which topics are talked about during a conversation; I often determine the direction of a conversation.",
                 "I communicate with others in a distant manner; I behave somewhat formally when I meet someone; I address others in a very casual way; I come across as somewhat stiff when dealing with people.",
-                "I don’t need a lot of words to get my message across; Most of the time, I only need a few words to explain something; I am somewhat long-winded when I need to explain something; With a few words I can usually clarify my point to everybody."
-                "I provide straightforward answers without elaboration or stylistic variation."
+                "I don’t need a lot of words to get my message across; Most of the time, I only need a few words to explain something; I am somewhat long-winded when I need to explain something; With a few words I can usually clarify my point to everybody.",
+                "I respond in a plain and impersonal way during conversations.; I avoid showing emotions or social cues when I talk.; My communication style feels robotic or mechanical.; I provide straightforward answers without elaboration or stylistic variation."
                 ]
 
 csm_prompt_template = """
