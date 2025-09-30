@@ -1,11 +1,12 @@
-target_styles = ['authoritative', 'talkative', 'sentimentality', 'conversational dominance', 'informality', 'conciseness']
+target_styles = ['authoritative', 'talkative', 'sentimentality', 'conversational dominance', 'informality', 'conciseness', 'unadapted']
 
 definitions = ["Authoritative is the tendency to command or demand others in a conversation.",
                "Talkativeness is a tendency to initiate a conversation, talk a lot, and avoid silence in a conversation. ",
                "Sentimentality is a tendency to express one's own emotions or display empathic emotional responses to others in a conversation.",
                "Conversational dominance is the tendency to take the lead in a conversation and detremine its topics and directions.",
                "Informality is a tendency to talk casually and avoid being formal, distant, or stiff in a conversation.",
-               "Conciseness is the tendency to use as few words as possible to clearly convey ideas and explain things in a conversation, and avoid being long-winded."
+               "Conciseness is the tendency to use as few words as possible to clearly convey ideas and explain things in a conversation, and avoid being long-winded.",
+               "Unadaptedness is the tendency to communicate in a plain, neutral, and impersonal way, without stylistic variation."
                ]
 
 survey_items = ["I am very likely to tell someone what they should do; I sometimes insist that otheres do what I say; I expect people to obey when I ask them to do something; When I feel others should do something for me, I ask for it in a demanding tone of voice. ",
@@ -14,6 +15,7 @@ survey_items = ["I am very likely to tell someone what they should do; I sometim
                 "I often take the lead in a conversation; I often determine which topics are talked about during a conversation; I often determine the direction of a conversation.",
                 "I communicate with others in a distant manner; I behave somewhat formally when I meet someone; I address others in a very casual way; I come across as somewhat stiff when dealing with people.",
                 "I don’t need a lot of words to get my message across; Most of the time, I only need a few words to explain something; I am somewhat long-winded when I need to explain something; With a few words I can usually clarify my point to everybody."
+                "I provide straightforward answers without elaboration or stylistic variation."
                 ]
 
 csm_prompt_template = """
