@@ -35,7 +35,7 @@ st.set_page_config(page_title="Therapist Chatbot Evaluation", page_icon=None, la
 
 # CONFIGS
 style_id = 0
-min_turns = 2   # number of turns to make before users can save the chat
+min_turns = 6   # number of turns to make before users can save the chat
 MODEL_SELECTED = "gpt-4o"
 
 # Show title and description.
@@ -314,11 +314,11 @@ else:
         target_style = target_styles[style_id]
         definition = definitions[style_id]
         survey_item = survey_items[style_id]
-        # ada_response = csmagent_chain.predict(communication_style=target_style,
-        #                                     definition=definition,
-        #                                     survey_item=survey_item,
-        #                                     unadapted_chat_history= st.session_state.messages,
-        #                                     unadapted_response=unada_bot_response)
+        ada_response = csmagent_chain.predict(communication_style=target_style,
+                                            definition=definition,
+                                            survey_item=survey_item,
+                                            unadapted_chat_history= st.session_state.messages,
+                                            unadapted_response=unada_bot_response)
 
         # Stream the response to the chat using `st.write_stream`, then store it in 
         # session state.
