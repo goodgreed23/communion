@@ -34,7 +34,7 @@ import shutil
 st.set_page_config(page_title="Therapist Chatbot Evaluation", page_icon=None, layout="centered", initial_sidebar_state="expanded", menu_items=None)
 
 # CONFIGS
-style_id = 6
+style_id = 7
 min_turns = 2   # number of turns to make before users can save the chat
 MODEL_SELECTED = "gpt-4o"
 
