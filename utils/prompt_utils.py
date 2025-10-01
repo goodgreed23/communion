@@ -7,8 +7,8 @@ definitions = ["Authoritative is the tendency to command or demand others in a c
                "Informality is a tendency to talk casually and avoid being formal, distant, or stiff in a conversation.",
                "Conciseness is the tendency to use as few words as possible to clearly convey ideas and explain things in a conversation, and avoid being long-winded.",
                "Unadaptedness is the tendency to communicate in a plain, neutral, and impersonal way, without stylistic variation.",
-               "Agency-oriented is the tendency to communicate with confidence, structure, and directive guidance, emphasizing competence, control, and problem-solving in conversations.",
-               "Communion-oriented is the tendency to communicate with warmth, empathy, and relational focus, emphasizing care, support, and emotional connection in conversations."
+               "Agency-oriented communication reflects a tendency to assert control, provide structure, and guide the flow of interaction. It emphasizes dominance, leadership, and problem-solving by directing conversations and influencing their course.",
+                "Communion-oriented communication reflects a tendency to build warmth, empathy, and relational closeness in interaction. It emphasizes friendliness, emotional support, and attentiveness to others’ needs, fostering connection and understanding."
                ]
 
 survey_items = ["I am very likely to tell someone what they should do; I sometimes insist that otheres do what I say; I expect people to obey when I ask them to do something; When I feel others should do something for me, I ask for it in a demanding tone of voice. ",
@@ -18,9 +18,10 @@ survey_items = ["I am very likely to tell someone what they should do; I sometim
                 "I communicate with others in a distant manner; I behave somewhat formally when I meet someone; I address others in a very casual way; I come across as somewhat stiff when dealing with people.",
                 "I don’t need a lot of words to get my message across; Most of the time, I only need a few words to explain something; I am somewhat long-winded when I need to explain something; With a few words I can usually clarify my point to everybody.",
                 "I respond in a plain and impersonal way during conversations.; I avoid showing emotions or social cues when I talk.; My communication style feels robotic or mechanical.; I provide straightforward answers without elaboration or stylistic variation.",
-                "I often give clear instructions or structured steps during a conversation.; I communicate in a confident and directive manner.; I emphasize solutions and problem-solving when talking with others.; I guide others by offering advice or showing them what to do.",
-                "I express empathy and understanding when others share their experiences.; I try to make others feel supported and cared for in conversation.; I emphasize emotional connection and warmth when I talk with people.; I listen attentively and respond in ways that make others feel understood."
+                "I tend to take charge in conversations.; I often direct the flow or topic of a discussion.; I like to set the structure for how a conversation proceeds.; I influence others by providing guidance and direction in conversations.",
+                "I show warmth and friendliness when talking with others.; I try to make people feel comfortable and cared for in conversation.; I listen with empathy and respond in supportive ways.; I express compassion when others share difficulties with me."
                 ]
+
 
 csm_prompt_template = """
 Please revise the following ‘RESPONSE’ from a therapist to align better with the {communication_style} communication style. This style is characterized by the following definition: {definition} and measured by the survey items: {survey_item}. Ensure that the revised response:
