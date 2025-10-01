@@ -1,4 +1,4 @@
-target_styles = ['authoritative', 'talkative', 'sentimentality', 'conversational dominance', 'informality', 'conciseness', 'unadapted']
+target_styles = ['authoritative', 'talkative', 'sentimentality', 'conversational dominance', 'informality', 'conciseness', 'unadapted', 'agency-oriented', 'communion-oriented']
 
 definitions = ["Authoritative is the tendency to command or demand others in a conversation.",
                "Talkativeness is a tendency to initiate a conversation, talk a lot, and avoid silence in a conversation. ",
@@ -7,6 +7,8 @@ definitions = ["Authoritative is the tendency to command or demand others in a c
                "Informality is a tendency to talk casually and avoid being formal, distant, or stiff in a conversation.",
                "Conciseness is the tendency to use as few words as possible to clearly convey ideas and explain things in a conversation, and avoid being long-winded.",
                "Unadaptedness is the tendency to communicate in a plain, neutral, and impersonal way, without stylistic variation."
+               "Agency-oriented is the tendency to communicate with confidence, structure, and directive guidance, emphasizing competence, control, and problem-solving in conversations.",
+               "Communion-oriented is the tendency to communicate with warmth, empathy, and relational focus, emphasizing care, support, and emotional connection in conversations."
                ]
 
 survey_items = ["I am very likely to tell someone what they should do; I sometimes insist that otheres do what I say; I expect people to obey when I ask them to do something; When I feel others should do something for me, I ask for it in a demanding tone of voice. ",
@@ -15,7 +17,9 @@ survey_items = ["I am very likely to tell someone what they should do; I sometim
                 "I often take the lead in a conversation; I often determine which topics are talked about during a conversation; I often determine the direction of a conversation.",
                 "I communicate with others in a distant manner; I behave somewhat formally when I meet someone; I address others in a very casual way; I come across as somewhat stiff when dealing with people.",
                 "I don’t need a lot of words to get my message across; Most of the time, I only need a few words to explain something; I am somewhat long-winded when I need to explain something; With a few words I can usually clarify my point to everybody.",
-                "I respond in a plain and impersonal way during conversations.; I avoid showing emotions or social cues when I talk.; My communication style feels robotic or mechanical.; I provide straightforward answers without elaboration or stylistic variation."
+                "I respond in a plain and impersonal way during conversations.; I avoid showing emotions or social cues when I talk.; My communication style feels robotic or mechanical.; I provide straightforward answers without elaboration or stylistic variation.",
+                "I often give clear instructions or structured steps during a conversation.; I communicate in a confident and directive manner.; I emphasize solutions and problem-solving when talking with others.; I guide others by offering advice or showing them what to do.",
+                "I express empathy and understanding when others share their experiences.; I try to make others feel supported and cared for in conversation.; I emphasize emotional connection and warmth when I talk with people.; I listen attentively and respond in ways that make others feel understood."
                 ]
 
 csm_prompt_template = """
